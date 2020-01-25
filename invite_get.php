@@ -4,8 +4,7 @@
  * User: m0pfin
  * Date: 25.01.2020
  * Time: 22:42
-
-
+ 
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -15,8 +14,6 @@ include 'func.php';
 require __DIR__ . '/vendor/autoload.php';
 
 $token = $_POST['token']; // Token
-
-//$token = 'EAABsbCS1iHgBABUhD6yE9tgZBSCynF91DvzJgQ0fn3zYrGkWiwTSj9ToEg3Yvgm29Umdoh1t7AWl9qmqqwNUZBII2XzBZAKrAbOZBSFSLKD1TsRurANj38gda9OJYxEZBsr8ilPBfoS8bAzLhpHfr7Y5undONk0vArWTGur8SnpKbWnv8M9J9';
 
 
 use \Curl\Curl;
